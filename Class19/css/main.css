@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+
+#header {
+  padding: 1px 0;
+  background-color: #dc2d6d;
+}
+#header .container {
+  display: flex;
+  justify-content: end;
+}
+#header .container .main {
+  width: 20%;
+  margin-right: 51%;
+}
+#header .container .main a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin-left: -21px;
+}
+#header .container .main a img {
+  height: 30px;
+  margin-left: 51px;
+}
+#header .container .mail {
+  width: 20%;
+  margin-left: 0px;
+}
+#header .container .mail a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin-left: -312%;
+}
+#header .container .mail a img {
+  height: 30px;
+}
+#header .container .bd {
+  width: 20%;
+  margin-left: -23px;
+  background-color: green;
+}
+#header .container .bd a {
+  font-size: 16px;
+  margin-left: 51px;
+  font-weight: 700;
+}
+#header .container .bd a:hover {
+  color: red;
+}
+#header .container .bd img {
+  height: 30px;
+}
+
+#main_menu {
+  padding: 30px 0;
+  background-color: aqua;
+}
+#main_menu .container {
+  display: flex;
+}
+#main_menu .container .logo {
+  width: 51.2%;
+  margin-top: 25px;
+}
+#main_menu .container .logo img {
+  height: 100px;
+  margin-top: -30px;
+  border-radius: 30px;
+}
+#main_menu .container .menu {
+  width: 75%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#main_menu .container .menu ul {
+  display: flex;
+}
+#main_menu .container .menu ul li a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+  font-family: sans-serif;
+  color: #07aff1;
+  transition: 0.4s;
+  position: relative;
+}
+#main_menu .container .menu ul li a:hover {
+  color: blue;
+}
+#main_menu .container .menu ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+  background-color: blue;
+  transition: 0.4s;
+}
+#main_menu .container .menu ul li a:hover::before {
+  width: 100%;
+}
+
+#banner {
+  padding: 400px 151px;
+  background-color: #dc2d6d;
+}
+#banner .container {
+  display: flex;
+}
+#banner .container .pictuer {
+  height: 451px;
+}
+#banner .container .pictuer img {
+  width: 208%;
+  float: left;
+  margin-left: 399%;
+  border-radius: 20px;
+  border: 1px solid pink;
+  margin-top: -57%;
+}
+#banner .container h1 {
+  font-size: 43px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-top: -51px;
+  float: left;
+  margin-left: -157px;
+  position: relative;
+  transition: 0.4s;
+}
+#banner .container h1:hover {
+  color: gold;
+}
+#banner .container h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+  background-color: blue;
+  transition: 0.4s;
+}
+#banner .container h1:hover::before {
+  width: 100%;
+}
+#banner .container h2 {
+  width: 100%;
+  color: blue;
+  font-size: 40px;
+  font-weight: 700;
+  float: right;
+  margin-right: 268px;
+}
+#banner .container p {
+  width: 100%;
+  color: #eeeef4;
+  font-size: 17px;
+  font-weight: 400;
+  float: right;
+  margin-right: 135%;
+  margin-top: 24%;
+}
+#banner .container .button {
+  height: 51px;
+  width: 30%;
+  margin-left: -202px;
+  margin-top: 284px;
+  line-height: 2;
+  background-color: transparent;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+#banner .container .button:hover {
+  background-color: #dc2d6d;
+}
+#banner .container .button a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20%;
+  color: #6bf4a2;
+}
+#banner .container .button a:hover {
+  color: #07aff1;
+}
+#banner .container .icon {
+  margin-top: 27%;
+}
+#banner .container .icon svg {
+  font-size: 42px;
+  margin-left: -200px;
+}
+#banner .container .icon_1 {
+  margin-top: 27%;
+}
+#banner .container .icon_1 svg {
+  font-size: 42px;
+  margin-left: -92px;
+}
+#banner .container .icon_2 {
+  margin-top: 27%;
+}
+#banner .container .icon_2 svg {
+  font-size: 42px;
+  margin-left: 3%;
+}
+#banner .container .icon_3 {
+  margin-top: 27%;
+}
+#banner .container .icon_3 svg {
+  font-size: 42px;
+  margin-left: 137%;
+}/*# sourceMappingURL=main.css.map */

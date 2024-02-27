@@ -1,0 +1,54 @@
+@import "../variables/colors";
+
+#header{
+  padding: 1px 0;
+  background-color: $primary-color;
+  .container{
+    display: flex;
+    justify-content: end;
+  .main{
+    width: 20%;
+    margin-right: 51%;
+    a{
+      font-size: 16px;
+      font-weight: 700;
+      color: black;
+      margin-left: -21px;
+    img{
+      height: 30px;
+      margin-left: 51px;
+    }
+  }
+  }
+  .mail{
+    width: 20%;
+    margin-left: 0px;
+    a{
+      font-size: 16px;
+      font-weight: 700;
+      color: black;
+      margin-left: -312%;
+    img{
+      height: 30px;
+    }
+  }
+  }
+  .bd{
+    width: 20%;
+    margin-left: -23px;
+    background-color: green;
+    a{
+      font-size: 16px;
+      margin-left: 51px;
+      font-weight: 700; 
+      &:hover{
+        color: red;
+      }
+    }
+    img{
+      height: 30px;
+    }
+  }
+}
+}
+      

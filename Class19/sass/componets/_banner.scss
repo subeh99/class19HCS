@@ -1,0 +1,116 @@
+@import "../variables/colors";
+
+#banner{
+    padding: 400px 151px;
+    
+    background-color: $primary-color;
+    .container{
+        display: flex;
+
+        .pictuer{
+            height: 451px;
+
+            img{
+                width: 208%;
+                float: left;
+                margin-left: 399%;
+                border-radius: 20px;
+                border: 1px solid pink;
+                margin-top: -57%;
+            }
+        }
+        h1{
+            font-size: 43px;
+            font-weight: 700;
+            font-family: sans-serif;
+            margin-top: -51px;
+            float: left;
+            margin-left: -157px;
+            position: relative;
+            transition: .4s;
+            &:hover{
+                color: gold;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                height: 2px;
+                width: 0%;
+                background-color: blue;
+                transition: .4s;
+            }
+            &:hover::before{
+                width: 100%;
+            }
+        }
+        h2{
+            width: 100%;
+            color: blue;
+            font-size: 40px;
+            font-weight: 700;
+            float: right;
+            margin-right: 268px;
+        }
+        p{
+            width: 100%;
+            color: #eeeef4;
+            font-size: 17px;
+            font-weight: 400;
+            float: right;
+            margin-right: 135%;
+            margin-top: 24%;
+        }
+        .button{
+            height: 51px;
+            width: 30%;
+            margin-left: -202px;
+            margin-top: 284px;
+            line-height: 2;
+            background-color: transparent;
+            border: 1px solid black;
+            transition: .4s;
+            &:hover{
+                background-color: $primary-color;
+            }
+            a{
+                font-size: 20px;
+                font-weight: 700;
+                margin-left: 20%;
+                color: $secondary-color;
+                &:hover{
+                    color: $third-color;
+                }
+            }
+        }
+    .icon{
+        margin-top: 27%;
+        svg{   
+            font-size: 42px;
+            margin-left: -200px;
+        }
+    }
+    .icon_1{
+        margin-top: 27%;
+        svg{
+            font-size: 42px;
+            margin-left: -92px;
+        }
+    }
+    .icon_2{
+        margin-top: 27%;
+        svg{
+            font-size: 42px;
+            margin-left: 3%;
+        }
+    }
+    .icon_3{
+        margin-top: 27%;
+        svg{
+            font-size: 42px;
+            margin-left: 137%;
+        }
+    }
+    }
+}
